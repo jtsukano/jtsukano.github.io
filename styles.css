@@ -1,3 +1,154 @@
-body {
-	background-color: blue;
+* {
+	box-sizing: border-box;
+	background-color: lightgray;
 }
+
+/*Common style*/
+body {
+	width: 100%;
+	margin: auto;
+	/*border: 1px solid red;*/		
+}
+
+img {
+	display: inline-block;
+}
+
+a:visited {
+	color: red;
+}
+/*Style for index.html*/
+#info > h1 {
+/*	border: 5px solid white;
+*/	width: 100%;
+	height: 225px;
+	margin: 0px;
+	background-image: url(http://media.wizards.com/2016/WPN/Marketing%20Materials/EN/EMN/Web%20Banners/EN_MTGEMN_728x900WebBanner.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: block;
+}
+
+#text {
+	/*border: 1px solid red;*/
+	display: inline-block;	float: left;
+	margin-top: 150px;
+	margin-left: 10px;
+	font-size: 2.3em;
+	color: white;
+	background-color: black;
+	opacity: .6;
+}
+
+#info > div {
+	border: 5px solid white;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	font-size: 2em;
+	text-align: center;
+}
+
+.cards {
+	border: 5px solid white;
+	width: 50%;
+	height: 500px;
+	float: left;
+	padding-left: 250px;
+}
+
+/*.cards > h1 {
+	border: 1px solid red;
+	display: inline-block;
+	float: left;
+	padding: 15px;
+	width: 50%;
+	height: 40px;
+}*/
+
+/*.cards > div {
+	border: 1px solid red;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 20px;
+}*/
+
+/*.card-image {
+	border: 1px solid red;
+	display: inline-block;
+	float: right;
+	width: 50%;
+	height: 100%
+}*/
+
+/*#top8	{
+	border: 1px solid red;
+	width: 50%;
+	height: 500px;
+	float: left;
+	padding-left: 250px;
+}
+
+#top_8_promo {
+	border: 1px solid red;
+	width: 50%;
+	float: left
+}
+
+#participation	{
+	border: 1px solid red;
+	width: 50%;
+	height: 500px;
+	float: left;
+	padding-left: 250px;
+}*/
+
+/*#participation {
+	float: left;
+	width: 50%;
+}
+
+#top8 {
+	float: left;
+	width: 50%;	
+}
+*/
+#champion {
+	display: block;
+	border: 5px solid white;
+/*	height: 500px;
+*/	width: 100%;
+	padding-left: 25%;
+}
+
+/*.champion > img {
+	display: inline-block;
+	margin: auto;
+}*/
+
+footer {
+	border: 5px solid white;
+	height: 200px;
+	width: 100%;
+}
+
+/*Style for tournament_structure.html*/
+header {
+	border: 5px solid blue;
+	background-color: orchid;
+	padding: 10px
+	}
+
+#rounds {
+	border: 1px solid red;
+	display: inline-block;
+	margin-left: 50%;
+}
+
+/*Media queries*/	
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .75em;  
+  }
